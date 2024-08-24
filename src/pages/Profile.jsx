@@ -43,7 +43,7 @@ function Profile() {
     }
 
     return (
-        <div className="h-fit bg-theme-100">
+        <div className="h-fit bg-theme-100 min-h-[100vh]">
             <PageHeader index={6} />
             <Row className="w-full flex justify-center absolute bg-theme-100">
                 <Col xs={0} sm={0} md={4} lg={4} xl={4} className="h-[100vh] left-0 w-full fixed">
